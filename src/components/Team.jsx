@@ -2,14 +2,22 @@ import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import '../styles/Team.css';
 import yoyo1 from "../assets/react.svg"
-import yoyo from "./gaara.jpg"
+import yash from "../assets/yash.jpg"
+import garima from "../assets/Garima1.jpg"
+import sanjit from "../assets/sanjit.jpg"
+import bhavya from "../assets/bhavya.jpg"
+import priyanshu from "../assets/priyanshu.jpg"
+import riya from "../assets/riya.jpg"
+import mukund from "../assets/mukund.jpg"
 
 
-const Team = () => {
+
+
+const Team = () =>{
   const teamMembers = [
     {
       name: "Pranay Jain",
-      role: "President",
+      role: "Lead",
       description: "Leading our society towards new technological frontiers.",
       image: yoyo1,
       skills: [ "Leadership"],
@@ -21,10 +29,10 @@ const Team = () => {
     },
     {
       name: "Garima Verma",
-      role: "Vice President",
+      role: "Co-Lead",
       description: "UI/UX designer and frontend developer. Ensuring our projects are not just functional but beautiful and user-friendly.",
-      image: "https://images.pexels.com/photos/3792581/pexels-photo-3792581.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
-      skills: ["UI/UX", "React", "Figma", "JavaScript"],
+      image: garima,
+      skills: ["UI/UX", "React", "Figma"],
       social: {
         github: "#",
         linkedin: "#",
@@ -34,9 +42,9 @@ const Team = () => {
     {
       name: "Yash Sharma",
       role: "Tech Lead",
-      description: "Front-end developer passionate about AI and machine learning. Responsible for technical architecture and mentoring junior developers. Driving innovation through collaborative development.",
-      image: yoyo,
-      skills: ["React", "Python", "AI/ML", "Mentorship"],
+      description: "Front-end developer passionate about AI and machine learning. Responsible for technical architecture and mentoring junior developers.",
+      image: yash,
+      skills: ["React", "Python", "AI/ML"],
       social: {
         github: "#",
         linkedin: "#",
@@ -47,7 +55,7 @@ const Team = () => {
       name: "Sanjit",
       role: "Tech Coordinator",
       description: "Organizing workshops, hackathons, and tech talks. Building bridges between industry and academia.",
-      image: "https://images.pexels.com/photos/1040880/pexels-photo-1040880.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: sanjit,
       skills: ["Event Planning", "Public Speaking", "Community Building"],
       social: {
         github: "#",
@@ -59,7 +67,7 @@ const Team = () => {
       name: "Priyanshu",
       role: "Social Squad Lead",
       description: "Managing our digital presence and communications. Spreading the word about our amazing community and achievements.",
-      image: "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: priyanshu,
       skills: ["Digital Marketing", "Content Creation", "Social Media"],
       social: {
         github: "#",
@@ -71,7 +79,7 @@ const Team = () => {
       name: "Mukund",
       role: "Social Squad Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: mukund,
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
@@ -83,7 +91,7 @@ const Team = () => {
       name: "Riya",
       role: "Connectors Hub Lead",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: riya,
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
@@ -95,7 +103,7 @@ const Team = () => {
       name: "Bhavya",
       role: "Connectors Hub Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: bhavya,
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
