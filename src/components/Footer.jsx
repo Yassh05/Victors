@@ -22,7 +22,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: <Github size={20} />, name: "GitHub", url: "#" },
     { icon: <Linkedin size={20} />, name: "LinkedIn", url: "#" },
-    { icon: <Twitter size={20} />, name: "Twitter", url: "#" },
+    // { icon: <Twitter size={20} />, name: "Twitter", url: "#" },
     { icon: <Instagram size={20} />, name: "Instagram", url: "#" }
   ];
 
@@ -116,11 +116,11 @@ const Footer = () => {
               </div>
               <div className="contact-item">
                 <Mail size={16} />
-                <span>#mail id</span>
+                <span>info.victors.dce@gmail.com</span>
               </div>
               <div className="contact-item">
                 <Phone size={16} />
-                <span>+ Phone no.</span>
+                <span>+91 XXXXXXXXXX</span>
               </div>
             </div>
             
@@ -143,7 +143,7 @@ const Footer = () => {
             <div className="footer-copyright">
               <p>
                 © {currentYear} Victors Society. Made with{' '}
-                <Heart size={16} className="heart-icon" /> by the Victors Team.
+                <Heart size={16} className="heart-icon" /> by the Victors Tech Team.
               </p>
             </div>
             <div className="footer-bottom-links">

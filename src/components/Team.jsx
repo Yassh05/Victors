@@ -115,7 +115,7 @@ const Team = () =>{
       name: "Garvit Anand",
       role: "Event Crew Lead",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
@@ -127,7 +127,7 @@ const Team = () =>{
       name: "Nandini",
       role: "Event Crew Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
@@ -139,7 +139,7 @@ const Team = () =>{
       name: "Mahak",
       role: "Creative Cell Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
@@ -151,7 +151,7 @@ const Team = () =>{
       name: "Vinay",
       role: "Creative Cell Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&fit=crop",
+      image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",

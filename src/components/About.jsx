@@ -44,7 +44,7 @@ const About = () => {
             <div className="story-text">
               <h3>Our Story</h3>
               <p>
-                Founded in 2020 by a group of passionate computer science students, Victors began as a 
+                Founded in 2024 by a group of passionate computer science students, Victors began as a 
                 small tech community focused on learning and building together. What started as weekend 
                 coding sessions has evolved into one of the most dynamic societies in our college.
               </p>
@@ -57,21 +57,25 @@ const About = () => {
             <div className="story-visual">
               <div className="timeline">
                 <div className="timeline-item">
-                  <div className="timeline-year">2020</div>
+                  <div className="timeline-year">2024</div>
                   <div className="timeline-event">Society Founded</div>
                 </div>
-                <div className="timeline-item">
+                {/* <div className="timeline-item">
                   <div className="timeline-year">2021</div>
                   <div className="timeline-event">First Hackathon Win</div>
+                </div> */}
+                <div className="timeline-item">
+                  <div className="timeline-year">2024</div>
+                  <div className="timeline-event">10+ Members</div>
                 </div>
                 <div className="timeline-item">
-                  <div className="timeline-year">2022</div>
-                  <div className="timeline-event">50+ Members</div>
+                  <div className="timeline-year">2025</div>
+                  <div className="timeline-event">??</div>
                 </div>
-                <div className="timeline-item">
+                {/* <div className="timeline-item">
                   <div className="timeline-year">2023</div>
                   <div className="timeline-event">Tech Lead Program</div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

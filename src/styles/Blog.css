@@ -24,6 +24,10 @@
   transition: all var(--transition-normal);
 }
 
+.btn-btn-primary{
+  min-width: 100px;
+}
+
 .featured-post:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 40px var(--shadow-color);

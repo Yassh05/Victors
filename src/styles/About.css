@@ -130,6 +130,8 @@
   margin: 0 var(--spacing-lg);
   box-shadow: 0 2px 8px var(--shadow-color);
   white-space: nowrap;
+  padding-left: 50px;
+  min-width: 200px;
 }
 
 /* Mission & Vision */

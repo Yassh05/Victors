@@ -44,21 +44,21 @@ const Hero = () => {
             <div className="stat-card">
               <Users className="stat-icon" />
               <div className="stat-content">
-                <h3>50+</h3>
+                <h3>10+</h3>
                 <p>Active Members</p>
               </div>
             </div>
             <div className="stat-card">
               <Target className="stat-icon" />
               <div className="stat-content">
-                <h3>25+</h3>
+                <h3>X</h3>
                 <p>Projects Completed</p>
               </div>
             </div>
             <div className="stat-card">
               <Trophy className="stat-icon" />
               <div className="stat-content">
-                <h3>10+</h3>
+                <h3>X</h3>
                 <p>Awards Won</p>
               </div>
             </div>

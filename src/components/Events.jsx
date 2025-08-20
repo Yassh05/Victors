@@ -8,36 +8,36 @@ const Events = () => {
   const upcomingEvents = [
     {
       id: 1,
-      title: "AI & Machine Learning Workshop",
+      title: "AWS Hands-on Workshops",
       date: "2024-02-15",
       time: "10:00 AM - 4:00 PM",
       location: "Computer Lab A",
       attendees: 45,
-      description: "Hands-on workshop covering fundamentals of AI and ML with practical projects using Python and TensorFlow.",
+      // description: "Hands-on workshop covering fundamentals of AI and ML with practical projects using Python and TensorFlow.",
       image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       type: "Workshop",
       registrationLink: "#"
     },
     {
       id: 2,
-      title: "VictorHack 2024",
-      date: "2024-03-22",
+      title: "Android App PRoject Series",
+      date: "Stay tuned",
       time: "24 Hours",
       location: "Main Auditorium",
       attendees: 120,
-      description: "Annual hackathon bringing together students to build innovative solutions for real-world problems.",
+      // description: "Annual hackathon bringing together students to build innovative solutions for real-world problems.",
       image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       type: "Hackathon",
       registrationLink: "#"
     },
     {
       id: 3,
-      title: "Industry Connect: Tech Careers",
+      title: "Tech Talk Webinars",
       date: "2024-04-10",
       time: "2:00 PM - 5:00 PM",
       location: "Virtual Event",
       attendees: 80,
-      description: "Panel discussion with industry professionals about career paths, internships, and job opportunities in tech.",
+      // description: "Panel discussion with industry professionals about career paths, internships, and job opportunities in tech.",
       image: "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       type: "Panel Discussion",
       registrationLink: "#"
@@ -47,7 +47,7 @@ const Events = () => {
   const pastEvents = [
     {
       id: 4,
-      title: "Web Development Bootcamp",
+      title: "WEB-IT-UP",
       date: "2024-01-20",
       time: "Full Day",
       location: "Computer Lab B",
@@ -59,7 +59,7 @@ const Events = () => {
     },
     {
       id: 5,
-      title: "Open Source Contribution Day",
+      title: "TECHPRENEUR",
       date: "2024-01-05",
       time: "10:00 AM - 6:00 PM",
       location: "Study Hall",
@@ -71,14 +71,14 @@ const Events = () => {
     },
     {
       id: 6,
-      title: "Cybersecurity Awareness Workshop",
+      title: "Headshot Huslers",
       date: "2023-12-15",
       time: "2:00 PM - 5:00 PM",
       location: "Lecture Hall 1",
       attendees: 85,
       description: "Educational workshop on cybersecurity best practices, ethical hacking, and digital privacy.",
       image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
-      type: "Workshop",
+      type: "Gaming Event",
       gallery: ["#", "#", "#"]
     }
   ];

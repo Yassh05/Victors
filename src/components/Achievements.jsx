@@ -4,24 +4,24 @@ import '../styles/Achievements.css';
 
 const Achievements = () => {
   const achievements = [
+    // {
+    //   title: "Best Student Society 2023",
+    //   category: "College Recognition",
+    //   date: "December 2023",
+    //   description: "Awarded the prestigious 'Best Student Society' title by the college administration for outstanding contribution to student development and innovation.",
+    //   icon: <Trophy />,
+    //   color: "gold"
+    // },
+    // {
+    //   title: "HackFest National Champions",
+    //   category: "Competition",
+    //   date: "October 2023",
+    //   description: "Our team 'CodeCrusaders' won the national hackathon with an innovative AI-powered solution for sustainable agriculture.",
+    //   icon: <Award />,
+    //   color: "blue"
+    // },
     {
-      title: "Best Student Society 2023",
-      category: "College Recognition",
-      date: "December 2023",
-      description: "Awarded the prestigious 'Best Student Society' title by the college administration for outstanding contribution to student development and innovation.",
-      icon: <Trophy />,
-      color: "gold"
-    },
-    {
-      title: "HackFest National Champions",
-      category: "Competition",
-      date: "October 2023",
-      description: "Our team 'CodeCrusaders' won the national hackathon with an innovative AI-powered solution for sustainable agriculture.",
-      icon: <Award />,
-      color: "blue"
-    },
-    {
-      title: "500+ Workshop Participants",
+      title: "100+ Workshop Participants",
       category: "Community Impact",
       date: "Year 2023",
       description: "Successfully conducted workshops that trained over 500 students in various technologies including web development, AI, and cybersecurity.",
@@ -36,31 +36,31 @@ const Achievements = () => {
       icon: <Target />,
       color: "purple"
     },
-    {
-      title: "Open Source Contributor Award",
-      category: "Development",
-      date: "June 2023",
-      description: "Recognized for contributing over 100 commits to various open source projects, making significant impact in the developer community.",
-      icon: <Star />,
-      color: "orange"
-    },
-    {
-      title: "Tech Innovation Award",
-      category: "Innovation",
-      date: "April 2023",
-      description: "Received the Tech Innovation Award for developing a campus management system that improved administrative efficiency by 40%.",
-      icon: <Award />,
-      color: "blue"
-    }
+    // {
+    //   title: "Open Source Contributor Award",
+    //   category: "Development",
+    //   date: "June 2023",
+    //   description: "Recognized for contributing over 100 commits to various open source projects, making significant impact in the developer community.",
+    //   icon: <Star />,
+    //   color: "orange"
+    // },
+    // {
+    //   title: "Tech Innovation Award",
+    //   category: "Innovation",
+    //   date: "April 2023",
+    //   description: "Received the Tech Innovation Award for developing a campus management system that improved administrative efficiency by 40%.",
+    //   icon: <Award />,
+    //   color: "blue"
+    // }
   ];
 
   const stats = [
-    { number: "50+", label: "Active Members", icon: <Users /> },
-    { number: "25+", label: "Projects Completed", icon: <Target /> },
-    { number: "15+", label: "Awards Won", icon: <Trophy /> },
-    { number: "500+", label: "Students Trained", icon: <Star /> },
-    { number: "3", label: "Years of Excellence", icon: <Calendar /> },
-    { number: "5", label: "Industry Partners", icon: <Award /> }
+    { number: "10+", label: "Active Members", icon: <Users /> },
+    // { number: "25+", label: "Projects Completed", icon: <Target /> },
+    // { number: "15+", label: "Awards Won", icon: <Trophy /> },
+    { number: "200+", label: "Students Trained", icon: <Star /> },
+    { number: "1", label: "Years of Excellence", icon: <Calendar /> },
+    // { number: "5", label: "Industry Partners", icon: <Award /> }
   ];
 
   return (

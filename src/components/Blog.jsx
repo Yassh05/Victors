@@ -233,7 +233,7 @@ const Blog = () => {
             <p>Subscribe to our newsletter for the latest updates, tutorials, and event announcements.</p>
             <div className="newsletter-form">
               <input type="email" placeholder="Enter your email address" />
-              <button className="btn btn-primary">Subscribe</button>
+              <button className="btn-btn-primary">Subscribe</button>
             </div>
           </div>
         </div>

@@ -48,13 +48,13 @@ const Contact = () => {
     {
       icon: <Mail />,
       title: "Email Us",
-      details: "",
+      details: "info.victors.dce@gmail.com",
       description: "Send us an email and we'll get back to you within 24 hours."
     },
     {
       icon: <Phone />,
       title: "Call Us",
-      details: "",
+      details: "+91 xxxxxxxxxx",
       description: "Available Monday to Friday, 9:00 AM - 6:00 PM"
     },
     {
@@ -68,7 +68,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: <Github />, name: "GitHub", url: "#", color: "#333" },
     { icon: <Linkedin />, name: "LinkedIn", url: "#", color: "#0077B5" },
-    { icon: <Twitter />, name: "Twitter", url: "#", color: "#1DA1F2" },
+    // { icon: <Twitter />, name: "Twitter", url: "#", color: "#1DA1F2" },
     { icon: <Instagram />, name: "Instagram", url: "#", color: "#E4405F" }
   ];
 
@@ -133,11 +133,11 @@ const Contact = () => {
                 </div>
                 <div className="info-item">
                   <strong>Founded:</strong>
-                  <span>2020</span>
+                  <span>20244</span>
                 </div>
                 <div className="info-item">
                   <strong>Focus Areas:</strong>
-                  <span>Web Dev, AI/ML, Cybersecurity</span>
+                  <span>Web Dev, AI/ML, Cloud Computing, Android Development</span>
                 </div>
               </div>
             </div>
