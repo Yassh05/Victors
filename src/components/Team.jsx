@@ -23,8 +23,8 @@ const Team = () =>{
       skills: [ "Leadership"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: "#"
+        linkedin: "https://www.linkedin.com/in/pranay-jain-470783293/",
+        email: "jpranay216@gmail.com"
       }
     },
     {
@@ -35,8 +35,8 @@ const Team = () =>{
       skills: ["UI/UX", "React", "Figma"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: "#"
+        linkedin: "https://www.linkedin.com/in/16garimaverma",
+        email: "garima16work5@gmail.com"
       }
     },
     {
@@ -46,21 +46,21 @@ const Team = () =>{
       image: yash,
       skills: ["React", "Python", "AI/ML"],
       social: {
-        github: "#",
-        linkedin: "#",
-        email: "#"
+        github: "github.com/Yassh05",
+        linkedin: "linkedin.com/in/yashsharma05",
+        email: "yashsharmaa555@gmail.com"
       }
     },
     {
-      name: "Sanjit",
+      name: "Sanjit Rakshit",
       role: "Tech Coordinator",
       description: "Organizing workshops, hackathons, and tech talks. Building bridges between industry and academia.",
       image: sanjit,
-      skills: ["Event Planning", "Public Speaking", "Community Building"],
+      skills: ["Event Planning", "DSA" ,"Web DEV", "Public Speaking", "Community Building"],
       social: {
-        github: "#",
-        linkedin: "#",
-        email: ""
+        github: "https://github.com/Sanjitrakshit",
+        linkedin: "https://www.linkedin.com/in/sanjit-rakshit-093844367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "sanjitrksht@gmail.com"
       }
     },
     {
@@ -71,8 +71,8 @@ const Team = () =>{
       skills: ["Digital Marketing", "Content Creation", "Social Media"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: ""
+        linkedin: "https://www.linkedin.com/in/priyanshu-roy-596305289",
+        email: "priyanshu.roy0525@gmail.com"
       }
     },
     {
@@ -83,8 +83,8 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: ""
+        linkedin: "https://www.linkedin.com/in/mukund-rai-179922326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "chanchala8743@gmail.com"
       }
     },
     {
@@ -95,8 +95,8 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: ""
+        linkedin: "https://www.linkedin.com/in/riya-dobhal",
+        email: "riyadobhal216@gmail.com"
       }
     },
     {
@@ -106,9 +106,9 @@ const Team = () =>{
       image: bhavya,
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
-        github: "#",
-        linkedin: "#",
-        email: ""
+        github: "https://github.com/Bhavya-sheoran/",
+        linkedin: "https://www.linkedin.com/in/bhavya-sheoran/",
+        email: "bhavyasheoran2000@gmail.com"
       }
     },
     {
@@ -119,8 +119,8 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: ""
+        linkedin:"https://www.linkedin.com/in/garvit-anand-978a82209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "garvit1310@gmail.com"
       }
     },
     {
@@ -130,9 +130,9 @@ const Team = () =>{
       image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
-        github: "#",
-        linkedin: "#",
-        email: ""
+        github: "https://github.com/nandini06483",
+        linkedin: "https://www.linkedin.com/in/nandini-nandini-23650b335",
+        email: "nandini3306@gmail.com"
       }
     },
     {
@@ -143,8 +143,8 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: "#"
+        linkedin: "https://www.linkedin.com/in/mahak-sharma-8b6841378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "Sharmamahak247@gmail.com"
       }
     },
     {
@@ -155,8 +155,8 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "#",
-        email: "#"
+        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "vinayshekhawat2004@gmail.com"
       }
     }
   ];
