@@ -13,17 +13,17 @@
   --primary-800: #1e40af;
   --primary-900: #1e3a8a;
 
-  --secondary-50: #faf5ff;
-  --secondary-100: #f3e8ff;
-  --secondary-200: #e9d5ff;
-  --secondary-300: #d8b4fe;
-  --secondary-400: #c084fc;
-  --secondary-500: #a855f7;
-  --secondary-600: #9333ea;
-  --secondary-700: #7c3aed;
-  --secondary-800: #6b21a8;
-  --secondary-900: #581c87;
-
+  --secondary-50:  #c4d9ff;
+  --secondary-100: #9abdff;
+  --secondary-200: #5883d3;
+  --secondary-300: #4b71b9;
+  --secondary-400: #4a6fb4;
+  --secondary-500: #365488;
+  --secondary-600: #274376;
+  --secondary-700: #142440;
+  --secondary-800: #142442;
+  --secondary-900: #0F1B31;
+  
   --accent-50: #fff7ed;
   --accent-100: #ffedd5;
   --accent-200: #fed7aa;
