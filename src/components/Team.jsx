@@ -53,7 +53,7 @@ const Team = () =>{
     },
     {
       name: "Sanjit Rakshit",
-      role: "Tech Coordinator",
+      role: "Tech Lead",
       description: "Organizing workshops, hackathons, and tech talks. Building bridges between industry and academia.",
       image: sanjit,
       skills: ["Event Planning", "DSA" ,"Web DEV", "Public Speaking", "Community Building"],
@@ -71,7 +71,7 @@ const Team = () =>{
       skills: ["Digital Marketing", "Content Creation", "Social Media"],
       social: {
         github: "#",
-        linkedin: "https://www.linkedin.com/in/priyanshu-roy-596305289",
+        linkedin: "https://www.linkedin.com/in/priyanshu-roy-596305289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "priyanshu.roy0525@gmail.com"
       }
     },
@@ -95,7 +95,7 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "https://www.linkedin.com/in/riya-dobhal",
+        linkedin: "https://www.linkedin.com/in/riya-dobhal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "riyadobhal216@gmail.com"
       }
     },
@@ -107,7 +107,7 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "https://github.com/Bhavya-sheoran/",
-        linkedin: "https://www.linkedin.com/in/bhavya-sheoran/",
+        linkedin: "https://www.linkedin.com/in/bhavya-sheoran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "bhavyasheoran2000@gmail.com"
       }
     },
@@ -131,7 +131,7 @@ const Team = () =>{
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "https://github.com/nandini06483",
-        linkedin: "https://www.linkedin.com/in/nandini-nandini-23650b335",
+        linkedin: "https://www.linkedin.com/in/nandini-23650b335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "nandini3306@gmail.com"
       }
     },
