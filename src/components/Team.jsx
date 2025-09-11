@@ -204,10 +204,10 @@ const Team = () =>{
                 <img src={member.image} alt={member.name} />
                 <div className="member-overlay">
                   <div className="social-links">
-                    <a href={member.social.github} aria-label="GitHub">
+                    <a href={member.social.github} aria-label="GitHub"  target="_blank" rel="noopener noreferrer">
                       <Github size={20} />
                     </a>
-                    <a href={member.social.linkedin} aria-label="LinkedIn">
+                    <a href={member.social.linkedin} aria-label="LinkedIn"  target="_blank" rel="noopener noreferrer">
                       <Linkedin size={20} />
                     </a>
                     <a href={`mailto:${member.social.email}`} aria-label="Email">
