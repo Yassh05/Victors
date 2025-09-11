@@ -150,25 +150,25 @@ const Team = () =>{
     {
       name: "Vinay",
       role: "Creative Cell Coordinator",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      description: "",
       image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        email: "vinayshekhawat2004@gmail.com"
+        linkedin: "",
+        email: ""
       }
     },
     {
       name: "Keshav",
       role: "Cloud Lead",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      description: "",
       image: "#",
       skills: ["AWS", "Azure", "React"],
       social: {
         github: "#",
-        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        email: "vinayshekhawat2004@gmail.com"
+        linkedin: "",
+        email: ""
       }
     },
     {
