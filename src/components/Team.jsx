@@ -47,7 +47,7 @@ const Team = () =>{
       skills: ["React", "Python", "AI/ML"],
       social: {
         github: "github.com/Yassh05",
-        linkedin: "linkedin.com/in/yashsharma05",
+        linkedin: "https://www.linkedin.com/in/yashsharma05/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BQ5SERD1oQvWhfY59aApmuQ%3D%3D",
         email: "yashsharmaa555@gmail.com"
       }
     },
@@ -153,6 +153,30 @@ const Team = () =>{
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
       image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
+      social: {
+        github: "#",
+        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "vinayshekhawat2004@gmail.com"
+      }
+    },
+    {
+      name: "Keshav",
+      role: "Cloud Lead",
+      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      image: "#",
+      skills: ["AWS", "Azure", "React"],
+      social: {
+        github: "#",
+        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "vinayshekhawat2004@gmail.com"
+      }
+    },
+    {
+      name: "Aditya",
+      role: "Cloud Lead",
+      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      image: "#",
+       skills: ["AWS", "Azure", "React"],
       social: {
         github: "#",
         linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
