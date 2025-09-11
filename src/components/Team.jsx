@@ -46,7 +46,7 @@ const Team = () =>{
       image: yash,
       skills: ["React", "Python", "AI/ML"],
       social: {
-        github: "github.com/Yassh05",
+        github: "https://github.com/Yassh05",
         linkedin: "https://www.linkedin.com/in/yashsharma05/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BQ5SERD1oQvWhfY59aApmuQ%3D%3D",
         email: "yashsharmaa555@gmail.com"
       }
