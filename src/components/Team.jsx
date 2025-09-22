@@ -11,8 +11,6 @@ import riya from "../assets/riya.jpg"
 import mukund from "../assets/mukund.jpg"
 
 
-
-
 const Team = () =>{
   const teamMembers = [
     {
