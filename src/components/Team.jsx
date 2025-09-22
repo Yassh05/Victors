@@ -30,9 +30,9 @@ const Team = () =>{
     {
       name: "Garima Verma",
       role: "Co-Lead",
-      description: "A creative mind who codes, designs, and explores AI, leading the team with energy and innovation to make every event unforgettable.",
+      description: "UI/UX designer and frontend developer. Ensuring our projects are not just functional but beautiful and user-friendly.",
       image: garima,
-      skills: ["Python", "AI & ML", "Figma"],
+      skills: ["UI/UX", "React", "Figma"],
       social: {
         github: "#",
         linkedin: "https://www.linkedin.com/in/16garimaverma",
@@ -56,7 +56,7 @@ const Team = () =>{
       role: "Tech Lead",
       description: "Organizing workshops, hackathons, and tech talks. Building bridges between industry and academia.",
       image: sanjit,
-      skills: ["Event Planning", "DSA" ,"Web DEV"],
+      skills: ["Event Planning", "DSA" ,"Web DEV", "Public Speaking", "Community Building"],
       social: {
         github: "https://github.com/Sanjitrakshit",
         linkedin: "https://www.linkedin.com/in/sanjit-rakshit-093844367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -128,7 +128,7 @@ const Team = () =>{
       role: "Event Crew Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
       image: "#",
-      skills: ["Project Management", "WEB DEV", "Team Coordination"],
+      skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
         github: "https://github.com/nandini06483",
         linkedin: "https://www.linkedin.com/in/nandini-23650b335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -138,7 +138,7 @@ const Team = () =>{
     {
       name: "Mahak",
       role: "Creative Cell Coordinator",
-      description: "From engineering logic to creative UI/UX, I design functional and engaging digital experiences.",
+      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
       image: "#",
       skills: ["Project Management", "Agile", "Team Coordination"],
       social: {
