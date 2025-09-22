@@ -138,72 +138,111 @@
 }
 
 /* Hero Visual */
+/* Container for the whole hero visual */
 .hero-visual {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: slideInRight 1s ease-out 0.3s both;
+  padding: clamp(20px, 5vw, 60px) 0; /* scales padding */
+  background: #0d1b2a; /* dark navy */
 }
 
+/* Center the logo and rings together */
 .hero-logo {
   position: relative;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
+/* Circle that holds the logo */
 .logo-circle {
-  width: 200px;
-  height: 200px;
-  background: linear-gradient(135deg, var(--primary-600), var(--secondary-600));
+  width: clamp(80px, 15vw, 140px);   /* responsive size */
+  height: clamp(80px, 15vw, 140px);
   border-radius: 50%;
+  overflow: hidden;
+  background: transparent;
   display: flex;
-  align-items: center;
   justify-content: center;
-  box-shadow: 0 20px 60px rgba(37, 99, 235, 0.3);
-  position: relative;
+  align-items: center;
   z-index: 2;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
 }
 
-.logo-letter {
-  font-size: 4rem;
-  font-weight: var(--font-weight-bold);
-  color: white;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+/* Logo image */
+.logo-image {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  display: block;
 }
 
+/* Rings wrapper */
 .logo-rings {
   position: absolute;
-  inset: -20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+/* Shared ring style */
 .ring {
   position: absolute;
-  border: 2px solid;
+  border: 2px solid cyan;
   border-radius: 50%;
-  animation: pulse 3s infinite;
+  animation: pulse 3s infinite ease-in-out;
+  opacity: 0.5;
+  box-shadow: 0 0 12px rgba(0, 255, 255, 0.6);
 }
 
+/* Ring sizes scale with viewport */
 .ring-1 {
-  width: 240px;
-  height: 240px;
-  border-color: rgba(37, 99, 235, 0.3);
+  width: clamp(120px, 20vw, 180px);
+  height: clamp(120px, 20vw, 180px);
   animation-delay: 0s;
 }
 
 .ring-2 {
-  width: 280px;
-  height: 280px;
-  border-color: rgba(124, 58, 237, 0.2);
+  width: clamp(160px, 28vw, 240px);
+  height: clamp(160px, 28vw, 240px);
   animation-delay: 1s;
 }
 
 .ring-3 {
-  width: 320px;
-  height: 320px;
-  border-color: rgba(249, 115, 22, 0.1);
+  width: clamp(200px, 36vw, 300px);
+  height: clamp(200px, 36vw, 300px);
   animation-delay: 2s;
 }
+
+/* Pulsing glow effect */
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.3;
+  }
+}
+
+/* Extra tweaks for very small screens */
+@media (max-width: 480px) {
+  .hero-visual {
+    padding: 20px 0;
+  }
+  .logo-circle {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+  }
+  .ring {
+    border-width: 1.5px;
+  }
+}
+
 
 /* Scroll Indicator */
 .scroll-indicator {
@@ -232,7 +271,7 @@
   font-weight: var(--font-weight-medium);
 }
 
-/* Responsive Design */
+/* Responsive Design 
 @media (max-width: 1024px) {
   .hero-container {
     gap: var(--spacing-3xl);
@@ -332,7 +371,7 @@
     gap: var(--spacing-sm);
     padding: var(--spacing-md);
   }
-}
+}*/
 
 /* Dark Theme Adjustments */
 [data-theme="dark"] .logo-circle {
