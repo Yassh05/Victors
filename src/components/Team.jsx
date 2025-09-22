@@ -18,9 +18,9 @@ const Team = () =>{
     {
       name: "Pranay Jain",
       role: "Lead",
-      description: "Leading our society towards new technological frontiers.",
+      description: "As a President, I see myself as a dedicated and responsible leader who inspires teamwork, encourages knowledge sharing, and creates an environment where everyone can learn, grow, and achieve their potential.",
       image: yoyo1,
-      skills: [ "Leadership"],
+      skills: [ "Leadership", "AWS", "EC2"],
       social: {
         github: "#",
         linkedin: "https://www.linkedin.com/in/pranay-jain-470783293/",
@@ -54,7 +54,7 @@ const Team = () =>{
     {
       name: "Sanjit Rakshit",
       role: "Tech Lead",
-      description: "Organizing workshops, hackathons, and tech talks. Building bridges between industry and academia.",
+      description: "As a Tech Lead, I focus on combining technical skills with teamwork and mentorship. I enjoy solving problems, guiding peers, and ensuring projects are built with quality and innovation.",
       image: sanjit,
       skills: ["Event Planning", "DSA" ,"Web DEV"],
       social: {
@@ -80,7 +80,7 @@ const Team = () =>{
       role: "Social Squad Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
       image: mukund,
-      skills: ["Project Management", "Agile", "Team Coordination"],
+      skills: ["Social Media", "UI", "UX"],
       social: {
         github: "#",
         linkedin: "https://www.linkedin.com/in/mukund-rai-179922326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -90,9 +90,9 @@ const Team = () =>{
     {
       name: "Riya",
       role: "Connectors Hub Lead",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      description: "Working to build strong partnerships with companies and startups by securing sponsorships and support for events, helping create opportunities that benefit and grow our college community.",
       image: riya,
-      skills: ["Project Management", "Agile", "Team Coordination"],
+      skills: ["Communacation Skill", "Networking", "Community Building"],
       social: {
         github: "#",
         linkedin: "https://www.linkedin.com/in/riya-dobhal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -102,9 +102,9 @@ const Team = () =>{
     {
       name: "Bhavya",
       role: "Connectors Hub Coordinator",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      description: "Turning strangers into collaborators and ideas into impact.",
       image: bhavya,
-      skills: ["Project Management", "Agile", "Team Coordination"],
+      skills: ["Networking", "Collaboration", "Community Building"],
       social: {
         github: "https://github.com/Bhavya-sheoran/",
         linkedin: "https://www.linkedin.com/in/bhavya-sheoran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -114,9 +114,9 @@ const Team = () =>{
     {
       name: "Garvit Anand",
       role: "Event Crew Lead",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      description: "Event Management Lead. Bringing ideas to life by planning and organizing engaging events that run smoothly and create lasting memories.",
       image: "#",
-      skills: ["Project Management", "Agile", "Team Coordination"],
+      skills: ["Planning", "Communication", "Team Coordination"],
       social: {
         github: "#",
         linkedin:"https://www.linkedin.com/in/garvit-anand-978a82209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -140,7 +140,7 @@ const Team = () =>{
       role: "Creative Cell Coordinator",
       description: "From engineering logic to creative UI/UX, I design functional and engaging digital experiences.",
       image: "#",
-      skills: ["Project Management", "Agile", "Team Coordination"],
+      skills: ["UI", "Cyber", "Team Coordination"],
       social: {
         github: "#",
         linkedin: "https://www.linkedin.com/in/mahak-sharma-8b6841378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
