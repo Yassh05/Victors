@@ -36,7 +36,7 @@ const Header = ({ isDarkMode, toggleTheme }) => {
             <li><a href="#events" onClick={() => scrollToSection('events')}>Events</a></li>
             <li><a href="#achievements" onClick={() => scrollToSection('achievements')}>Achievements</a></li>
             <li><a href="#gallery" onClick={() => scrollToSection('gallery')}>Gallery</a></li>
-            <li><a href="#blog" onClick={() => scrollToSection('blog')}>Blog</a></li>
+            {/* <li><a href="#blog" onClick={() => scrollToSection('blog')}>Blog</a></li> */}
             <li><a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
           </ul>
         </nav>
@@ -60,7 +60,7 @@ const Header = ({ isDarkMode, toggleTheme }) => {
             <li><a href="#events" onClick={() => scrollToSection('events')}>Events</a></li>
             <li><a href="#achievements" onClick={() => scrollToSection('achievements')}>Achievements</a></li>
             <li><a href="#gallery" onClick={() => scrollToSection('gallery')}>Gallery</a></li>
-            <li><a href="#blog" onClick={() => scrollToSection('blog')}>Blog</a></li>
+            {/* <li><a href="#blog" onClick={() => scrollToSection('blog')}>Blog</a></li> */}
             <li><a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
           </ul>
         </nav>

@@ -150,7 +150,7 @@ const Contact = () => {
               <p>Fill out the form below and we'll get back to you as soon as possible.</p>
             </div>
 
-            <form className="contact-form" action="https://formsubmit.co/yashsharmaa555@gmail.com" method="post">
+            <form className="contact-form" action="https://formsubmit.co/yashsharmaa555@gmail.comcd v " method="post">
               <div className="form-group">
                 <label htmlFor="name">Full Name *</label>
                 <input

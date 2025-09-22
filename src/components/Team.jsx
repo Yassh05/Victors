@@ -56,7 +56,7 @@ const Team = () =>{
       role: "Tech Lead",
       description: "Organizing workshops, hackathons, and tech talks. Building bridges between industry and academia.",
       image: sanjit,
-      skills: ["Event Planning", "DSA" ,"Web DEV", "Public Speaking", "Community Building"],
+      skills: [ "DSA" ,"Web Dev", "Public Speaking"],
       social: {
         github: "https://github.com/Sanjitrakshit",
         linkedin: "https://www.linkedin.com/in/sanjit-rakshit-093844367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -150,9 +150,9 @@ const Team = () =>{
     {
       name: "Vinay",
       role: "Creative Cell Coordinator",
-      description: "",
+      description: "Creative editor and UI/UX enthusiast, blending design with functionality.",
       image: "#",
-      skills: ["Project Management", "Agile", "Team Coordination"],
+      skills: ["Backend Developer", "UI/UX", "Team Coordination"],
       social: {
         github: "#",
         linkedin: "",
@@ -162,9 +162,9 @@ const Team = () =>{
     {
       name: "Keshav",
       role: "Cloud Lead",
-      description: "",
+      description: "Experienced in AWS services and cloud-native development, with a focus on optimizing infrastructure and enabling innovation for business growth.",
       image: "#",
-      skills: ["AWS", "Azure", "React"],
+      skills: ["AWS", "Cloud", "Web Dev"],
       social: {
         github: "#",
         linkedin: "",
@@ -174,13 +174,13 @@ const Team = () =>{
     {
       name: "Aditya",
       role: "Cloud Lead",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      description: "A versatile blend of cloud expertise and creative design, combining AWS architecture with graphic artistry.",
       image: "#",
-       skills: ["AWS", "Azure", "React"],
+       skills: ["AWS", "Graphic Design", "Cloud"],
       social: {
         github: "#",
-        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        email: "vinayshekhawat2004@gmail.com"
+        linkedin: "",
+        email: ""
       }
     }
   ];

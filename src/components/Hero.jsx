@@ -51,17 +51,17 @@ const Hero = () => {
             <div className="stat-card">
               <Target className="stat-icon" />
               <div className="stat-content">
-                <h3>X</h3>
-                <p>Projects Completed</p>
+                <h3>5+</h3>
+                <p>Events done</p>
               </div>
             </div>
-            <div className="stat-card">
+            {/* <div className="stat-card">
               <Trophy className="stat-icon" />
               <div className="stat-content">
                 <h3>X</h3>
                 <p>Awards Won</p>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
