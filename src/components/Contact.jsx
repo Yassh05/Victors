@@ -66,7 +66,7 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github />, name: "GitHub", url: "#", color: "#333" },
+    // { icon: <Github />, name: "GitHub", url: "#", color: "#333" },
     { icon: <Linkedin />, name: "LinkedIn", url: "#", color: "#0077B5" },
     // { icon: <Twitter />, name: "Twitter", url: "#", color: "#1DA1F2" },
     { icon: <Instagram />, name: "Instagram", url: "#", color: "#E4405F" }
@@ -125,7 +125,7 @@ const Contact = () => {
               <div className="info-grid">
                 <div className="info-item">
                   <strong>Meeting Times:</strong>
-                  <span>Fridays, 4:00 PM - 6:00 PM</span>
+                  <span>Fridays, 2:00 PM - 3:00 PM</span>
                 </div>
                 <div className="info-item">
                   <strong>Membership:</strong>
@@ -133,7 +133,7 @@ const Contact = () => {
                 </div>
                 <div className="info-item">
                   <strong>Founded:</strong>
-                  <span>20244</span>
+                  <span>2024</span>
                 </div>
                 <div className="info-item">
                   <strong>Focus Areas:</strong>

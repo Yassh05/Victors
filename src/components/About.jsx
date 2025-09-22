@@ -70,7 +70,7 @@ const About = () => {
                 </div>
                 <div className="timeline-item">
                   <div className="timeline-year">2025</div>
-                  <div className="timeline-event">??</div>
+                  <div className="timeline-event">10+ Events Delivered</div>
                 </div>
                 {/* <div className="timeline-item">
                   <div className="timeline-year">2023</div>

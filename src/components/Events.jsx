@@ -18,6 +18,7 @@ const Events = () => {
       type: "Workshop",
       registrationLink: "#"
     },
+  
     {
       id: 2,
       title: "Android App PRoject Series",
@@ -47,8 +48,46 @@ const Events = () => {
   const pastEvents = [
     {
       id: 4,
+       title: "TECHPRENEUR",
+      date: "2024-03-28",
+      location: "Study Hall",
+      attendees: 35,
+      description: "A high-energy startup pitching competition to fuel creativity, empower entrepreneurs, and turn ideas into reality.",
+      image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Community Event",
+      gallery: ["#", "#", "#"]
+      
+    },
+    {
+      id: 5,
+      title: "Resume Building Workshop",
+      date: "2024-09-27",
+      time: "01:50 PM Onwards",
+      location: "Seminar Hall",
+      attendees: 60,
+      description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
+      image: "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Workshop",
+      gallery: ["#", "#", "#"]
+     
+    },
+    {
+      id: 6,
+      title: "Career Guidance and iOS Development",
+      date: "2024-10-06",
+      time: "12:00 PM Onwards",
+      location: "Online",
+      attendees: 60,
+      description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
+      image: "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Bootcamp",
+      gallery: ["#", "#", "#"]
+     
+    },
+    {
+      id: 7,
       title: "WEB-IT-UP",
-      date: "2024-01-20",
+      date: "2024-10-25",
       time: "Full Day",
       location: "Computer Lab B",
       attendees: 60,
@@ -56,31 +95,80 @@ const Events = () => {
       image: "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       type: "Bootcamp",
       gallery: ["#", "#", "#"]
+     
     },
     {
-      id: 5,
-      title: "TECHPRENEUR",
-      date: "2024-01-05",
-      time: "10:00 AM - 6:00 PM",
-      location: "Study Hall",
-      attendees: 35,
-      description: "Collaborative event where members contributed to various open source projects and learned about version control.",
-      image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
-      type: "Community Event",
+      id: 8,
+      title: "Importance of DSA & PPS",
+      date: "2024-11-17",
+      time: "2:30 PM - 05:00 PM",
+      location: "Lecture Hall 1",
+      attendees: 85,
+      description: "Educational webinar on Strengthening Data Structures & Algorithms + Problem-Solving skills with industry insights.",
+      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Webinar",
       gallery: ["#", "#", "#"]
     },
     {
-      id: 6,
-      title: "Headshot Huslers",
-      date: "2023-12-15",
+      id: 9,
+      title: "Foundations of Cloud Computing",
+      date: "2024-12-15",
       time: "2:00 PM - 5:00 PM",
-      location: "Lecture Hall 1",
+      location: "Online",
       attendees: 85,
-      description: "Educational workshop on cybersecurity best practices, ethical hacking, and digital privacy.",
+      description: "Strategic overview session on Cloud Computing concepts.",
+      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Workshop",
+      gallery: ["#", "#", "#"]
+    },
+    {
+      id: 10,
+      title: "PUBG Gaming Competition",
+      date: "2025-01-31",
+      // time: "2:00 PM - 5:00 PM",
+      location: "Online",
+      attendees: 85,
+      description: "Strategic overview session on Cloud Computing concepts.",
       image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       type: "Gaming Event",
       gallery: ["#", "#", "#"]
-    }
+    },
+    {
+      id: 11,
+      title: "Hype your Profile",
+      date: "2025-02-03",
+      time: "6:30 PM - 8:00 PM",
+      location: "Online",
+      attendees: 85,
+      description: "To guide students on growing their LinkedIn presence and building a strong personal brand.",
+      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Workshop",
+      gallery: ["#", "#", "#"]
+    },
+    {
+      id: 12,
+      title: "Headshot Huslers",
+      date: "2025-2-8",
+      // time: "2:00 PM - 5:00 PM",
+      location: "Lecture Hall 1",
+      attendees: 85,
+      description: "Fun and competitive gaming event for BGMI enthusiasts. ₹2000 cash prize, customized swags, free vouchers",
+      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Gaming Event",
+      gallery: ["#", "#", "#"]
+    },
+      {
+      id: 13,
+      title: "Cloud Computing Event",
+      date: "",
+      time: "10:00 AM - 4:00 PM",
+      location: "Computer Lab A",
+      attendees: 120,
+      // description: "Hands-on workshop covering fundamentals of AI and ML with practical projects using Python and TensorFlow.",
+      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      type: "Workshop",
+      gallery: []
+    },
   ];
 
   const events = activeTab === 'upcoming' ? upcomingEvents : pastEvents;

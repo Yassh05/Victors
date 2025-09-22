@@ -51,7 +51,7 @@ const Hero = () => {
             <div className="stat-card">
               <Target className="stat-icon" />
               <div className="stat-content">
-                <h3>5+</h3>
+                <h3>10+</h3>
                 <p>Events done</p>
               </div>
             </div>
