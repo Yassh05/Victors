@@ -9,6 +9,13 @@ import bhavya from "../assets/bhavya.jpg"
 import priyanshu from "../assets/priyanshu.jpg"
 import riya from "../assets/riya.jpg"
 import mukund from "../assets/mukund.jpg"
+import garvit from "#"
+import nandini from "#"
+import keshav from "#"
+import aditya from "#"
+import pranay from "#"
+import mahak from "#"
+import vinay from "#"
 
 
 const Team = () =>{
@@ -17,7 +24,7 @@ const Team = () =>{
       name: "Pranay Jain",
       role: "Lead",
       description: "As a President, I see myself as a dedicated and responsible leader who inspires teamwork, encourages knowledge sharing, and creates an environment where everyone can learn, grow, and achieve their potential.",
-      image: yoyo1,
+      image: pranay,
       skills: [ "Leadership", "AWS", "EC2"],
       social: {
         github: "#",
@@ -113,7 +120,7 @@ const Team = () =>{
       name: "Garvit Anand",
       role: "Event Crew Lead",
       description: "Event Management Lead. Bringing ideas to life by planning and organizing engaging events that run smoothly and create lasting memories.",
-      image: "#",
+      image: garvit,
       skills: ["Planning", "Communication", "Team Coordination"],
       social: {
         github: "#",
@@ -125,7 +132,7 @@ const Team = () =>{
       name: "Nandini",
       role: "Event Crew Coordinator",
       description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: "#",
+      image: nandini,
       skills: ["Project Management", "WEB DEV", "Team Coordination"],
       social: {
         github: "https://github.com/nandini06483",
@@ -137,7 +144,7 @@ const Team = () =>{
       name: "Mahak",
       role: "Creative Cell Coordinator",
       description: "From engineering logic to creative UI/UX, I design functional and engaging digital experiences.",
-      image: "#",
+      image: mehak,
       skills: ["UI", "Cyber", "Team Coordination"],
       social: {
         github: "#",
@@ -149,36 +156,36 @@ const Team = () =>{
       name: "Vinay",
       role: "Creative Cell Coordinator",
       description: "Creative editor and UI/UX enthusiast, blending design with functionality.",
-      image: "#",
-      skills: ["Backend Developer", "UI/UX", "Team Coordination"],
+      image: vinay,
+      skills: ["Creative Thinking", "UI/UX", "Team Coordination"],
       social: {
         github: "#",
-        linkedin: "",
-        email: ""
+        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "vinayshekhawat2004@gmail.com"
       }
     },
     {
       name: "Keshav",
       role: "Cloud Lead",
       description: "Experienced in AWS services and cloud-native development, with a focus on optimizing infrastructure and enabling innovation for business growth.",
-      image: "#",
-      skills: ["AWS", "Cloud", "Web Dev"],
+      image: keshav,
+      skills: ["AWS", "Cloud", "DevOps"],
       social: {
         github: "#",
-        linkedin: "",
-        email: ""
+        linkedin: "https://www.linkedin.com/in/keshav-kumar-3649812b5/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "keshavdeploys@gmail.com"
       }
     },
     {
       name: "Aditya",
       role: "Cloud Lead",
       description: "A versatile blend of cloud expertise and creative design, combining AWS architecture with graphic artistry.",
-      image: "#",
+      image: aditya,
        skills: ["AWS", "Graphic Design", "Cloud"],
       social: {
         github: "#",
-        linkedin: "",
-        email: ""
+        linkedin: "https://www.linkedin.com/in/aditya-singh-92b740289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "joshadityasingh@gmail.com"
       }
     }
   ];
