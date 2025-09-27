@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronRight, Users, Target, Trophy } from 'lucide-react';
 import '../styles/Hero.css';
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -100,8 +100,9 @@ const Hero = () => {
         <div className="scroll-line"></div>
         <span>Scroll to explore</span>
       </div>
-    </section>
-  );
+      </div>
+       </section>
+        );
 };
 
 export default Hero;

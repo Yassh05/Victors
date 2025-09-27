@@ -9,13 +9,13 @@ import bhavya from "../assets/bhavya.jpg"
 import priyanshu from "../assets/priyanshu.jpg"
 import riya from "../assets/riya.jpg"
 import mukund from "../assets/mukund.jpg"
-import garvit from "#"
-import nandini from "#"
-import keshav from "#"
-import aditya from "#"
-import pranay from "#"
-import mahak from "#"
-import vinay from "#"
+import garvit from "../assets/garvit.jpg"
+import nandini from "../assets/gaara.jpg"
+import keshav from "../assets/gaara.jpg"
+import aditya from "../assets/gaara.jpg"
+import pranay from "../assets/pranay.jpg"
+import mahak from "../assets/mahak.jpg"
+import vinay from "../assets/gaara.jpg"
 
 
 const Team = () =>{
@@ -144,7 +144,7 @@ const Team = () =>{
       name: "Mahak",
       role: "Creative Cell Coordinator",
       description: "From engineering logic to creative UI/UX, I design functional and engaging digital experiences.",
-      image: mehak,
+      image: mahak,
       skills: ["UI", "Cyber", "Team Coordination"],
       social: {
         github: "#",
