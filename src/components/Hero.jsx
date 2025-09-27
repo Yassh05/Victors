@@ -1,7 +1,6 @@
 import React from 'react';
 import { ChevronRight, Users, Target, Trophy } from 'lucide-react';
 import '../styles/Hero.css';
-import logo from "../assets/logo.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -66,7 +65,7 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Hero Visual 
+        {/* Hero Visual */}
         <div className="hero-visual">
           <div className="hero-logo">
             <div className="logo-circle">
@@ -79,21 +78,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-      </div>*/}
-
-        {/* Hero Visual */}
-        <div className="hero-visual">
-  <div className="hero-logo">
-    <div className="logo-circle">
-      <img src={logo} alt="Your brand name" className="logo-image" />
-    </div>
-    <div className="logo-rings">
-      <div className="ring ring-1"></div>
-      <div className="ring ring-2"></div>
-      <div className="ring ring-3"></div>
-    </div>
-  </div>
-</div>
+      </div>
 
       {/* Scroll Indicator */}
       <div className="scroll-indicator">
