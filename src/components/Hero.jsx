@@ -82,18 +82,23 @@ const Hero = () => {
       </div>*/}
 
         {/* Hero Visual */}
-        <div className="hero-visual">
+        {/* <div className="hero-visual">
   <div className="hero-logo">
     <div className="logo-circle">
       <img src={logo} alt="Your brand name" className="logo-image" />
-    </div>
-    <div className="logo-rings">
+    </div> */}
+    <div class="hero-image">
+                <div class="profile-circle">
+                    <img src={logo} alt="Victors" class="gaara" />
+                </div>
+            </div>
+    {/* <div className="logo-rings">
       <div className="ring ring-1"></div>
       <div className="ring ring-2"></div>
       <div className="ring ring-3"></div>
-    </div>
-  </div>
-</div>
+    </div> */}
+  {/* </div>
+</div> */}
 
       {/* Scroll Indicator */}
       <div className="scroll-indicator">

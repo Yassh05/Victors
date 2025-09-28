@@ -60,7 +60,7 @@ const Contact = () => {
     {
       icon: <MapPin />,
       title: "Visit Us",
-      details: "Room XX",
+      details: "Room 402 AIML 1",
       description: "Drop by during our office hours or scheduled meetings."
     }
   ];
