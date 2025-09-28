@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Sun, Moon } from "lucide-react";
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import '../styles/Header.css';
 
 const Header = ({ isDarkMode, toggleTheme }) => {
