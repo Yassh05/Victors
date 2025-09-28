@@ -20,7 +20,7 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: <Github size={20} />, name: "GitHub", url: "#" },
+    // { icon: <Github size={20} />, name: "GitHub", url: "#" },
     { icon: <Linkedin size={20} />, name: "LinkedIn", url: "#" },
     // { icon: <Twitter size={20} />, name: "Twitter", url: "#" },
     { icon: <Instagram size={20} />, name: "Instagram", url: "#" }
