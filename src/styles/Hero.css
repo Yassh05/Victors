@@ -278,7 +278,7 @@
   animation-delay: 2s;
 }
 
-/* Scroll Indicator 
+/* Scroll Indicator */
 .scroll-indicator {
   position: absolute;
   bottom: var(--spacing-2xl);
@@ -303,9 +303,9 @@
 .scroll-indicator span {
   font-size: 0.9rem;
   font-weight: var(--font-weight-medium);
-}*/
+}
 
-/* Responsive Design 
+/* Responsive Design */
 @media (max-width: 1024px) {
   .hero-container {
     gap: var(--spacing-3xl);
@@ -405,7 +405,7 @@
     gap: var(--spacing-sm);
     padding: var(--spacing-md);
   }
-}*/
+}
 
 /* Dark Theme Adjustments 
 [data-theme="dark"] .logo-circle {
