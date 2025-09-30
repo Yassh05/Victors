@@ -21,7 +21,7 @@ const Footer = () => {
 
   const socialLinks = [
     // { icon: <Github size={20} />, name: "GitHub", url: "#" },
-    { icon: <Linkedin size={20} />, name: "LinkedIn", url: "#" },
+    { icon: <Linkedin size={20} />, name: "LinkedIn", url: "https://www.linkedin.com/company/the-victors-club/posts/?feedView=all" },
     // { icon: <Twitter size={20} />, name: "Twitter", url: "#" },
     { icon: <Instagram size={20} />, name: "Instagram", url: "#" }
   ];
@@ -59,6 +59,8 @@ const Footer = () => {
                   href={social.url}
                   className="social-link"
                   aria-label={social.name}
+                  target="_blank" 
+                  rel="noopener noreferrer"
                 >
                   {social.icon}
                 </a>

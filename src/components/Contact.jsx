@@ -111,6 +111,7 @@ const Contact = () => {
                     className="social-link"
                     style={{ '--social-color': social.color }}
                     aria-label={social.name}
+                    target="_blank" rel="noopener noreferrer"
                   >
                     {social.icon}
                     <span>{social.name}</span>
