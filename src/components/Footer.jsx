@@ -20,10 +20,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    // { icon: <Github size={20} />, name: "GitHub", url: "#" },
-    { icon: <Linkedin size={20} />, name: "LinkedIn", url: "https://www.linkedin.com/company/the-victors-club/posts/?feedView=all" },
+    { icon: <Github size={20} />, name: "GitHub", url: "#" },
+    { icon: <Linkedin size={20} />, name: "LinkedIn", url: "https://www.linkedin.com/posts/the-victors-club_today-at-victors-our-students-successfully-activity-7378783530945974272-8BRP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFJHpUMBSZtv5zWZnuXKGYzdICUInzysZrc" },
     // { icon: <Twitter size={20} />, name: "Twitter", url: "#" },
-    { icon: <Instagram size={20} />, name: "Instagram", url: "#" }
+    { icon: <Instagram size={20} />, name: "Instagram", url: "https://www.instagram.com/thevictorsclub.dce?igsh=Z2llMDZwZW1mZHc0" }
   ];
 
   const scrollToSection = (sectionId) => {
@@ -59,8 +59,6 @@ const Footer = () => {
                   href={social.url}
                   className="social-link"
                   aria-label={social.name}
-                  target="_blank" 
-                  rel="noopener noreferrer"
                 >
                   {social.icon}
                 </a>
