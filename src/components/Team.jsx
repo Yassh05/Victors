@@ -10,12 +10,12 @@ import priyanshu from "../assets/priyanshu.jpg"
 import riya from "../assets/riya.jpg"
 import mukund from "../assets/mukund.jpg"
 import garvit from "../assets/garvit.jpg"
-import nandini from "../assets/gaara.jpg"
+import nandini from "../assets/nandini.jpg"
 import keshav from "../assets/keshav.jpg"
 import aditya from "../assets/aditya.jpg"
 import pranay from "../assets/pranay.jpg"
 import mahak from "../assets/mahak.jpg"
-import vinay from "../assets/gaara.jpg"
+import vinay from "../assets/vinay.jpg"
 
 
 const Team = () =>{
