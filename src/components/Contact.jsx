@@ -67,9 +67,9 @@ const Contact = () => {
 
   const socialLinks = [
     // { icon: <Github />, name: "GitHub", url: "#", color: "#333" },
-    { icon: <Linkedin />, name: "LinkedIn", url: "https://www.linkedin.com/company/the-victors-club/posts/?feedView=all", color: "#0077B5" },
+    { icon: <Linkedin />, name: "LinkedIn", url: "https://www.linkedin.com/posts/the-victors-club_today-at-victors-our-students-successfully-activity-7378783530945974272-8BRP?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFJHpUMBSZtv5zWZnuXKGYzdICUInzysZrc", color: "#0077B5" },
     // { icon: <Twitter />, name: "Twitter", url: "#", color: "#1DA1F2" },
-    { icon: <Instagram />, name: "Instagram", url: "#", color: "#E4405F" }
+    { icon: <Instagram />, name: "Instagram", url: "https://www.instagram.com/thevictorsclub.dce?igsh=Z2llMDZwZW1mZHc0", color: "#E4405F" }
   ];
 
   return (
@@ -111,7 +111,6 @@ const Contact = () => {
                     className="social-link"
                     style={{ '--social-color': social.color }}
                     aria-label={social.name}
-                    target="_blank" rel="noopener noreferrer"
                   >
                     {social.icon}
                     <span>{social.name}</span>
