@@ -1,10 +1,21 @@
 import React, { useState } from 'react';
 import { Calendar, MapPin, Clock, Users, ExternalLink } from 'lucide-react';
 import '../styles/Events.css';
+import workshop from '../assets/workshop.jpg';
+//import career from '../assets/career.jpg';
+import bgmi from '../assets/bgmi.jpg';
+import webitup from '../assets/web.jpg';
+import care from '../assets/care.jpg';
+import techv from '../assets/tech.jpg';
+import ppsv from '../assets/pps.jpg';
+import foundv from '../assets/foundation.jpg';
+import head from '../assets/headshot.jpg';
+import cloud from '../assets/cloud.jpg';
+import hypev from '../assets/hype.jpg';
+
 
 const Events = () => {
   const [activeTab, setActiveTab] = useState('upcoming');
-
   const upcomingEvents = [
     {
       id: 1,
@@ -53,7 +64,7 @@ const Events = () => {
       location: "Study Hall",
       attendees: 35,
       description: "A high-energy startup pitching competition to fuel creativity, empower entrepreneurs, and turn ideas into reality.",
-      image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: techv,
       type: "Community Event",
       gallery: ["#", "#", "#"]
       
@@ -66,7 +77,7 @@ const Events = () => {
       location: "Seminar Hall",
       attendees: 60,
       description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
-      image: "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: workshop,
       type: "Workshop",
       gallery: ["#", "#", "#"]
      
@@ -79,7 +90,7 @@ const Events = () => {
       location: "Online",
       attendees: 60,
       description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
-      image: "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: care,
       type: "Bootcamp",
       gallery: ["#", "#", "#"]
      
@@ -92,7 +103,7 @@ const Events = () => {
       location: "Computer Lab B",
       attendees: 60,
       description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
-      image: "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: webitup,
       type: "Bootcamp",
       gallery: ["#", "#", "#"]
      
@@ -105,7 +116,7 @@ const Events = () => {
       location: "Lecture Hall 1",
       attendees: 85,
       description: "Educational webinar on Strengthening Data Structures & Algorithms + Problem-Solving skills with industry insights.",
-      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: ppsv,
       type: "Webinar",
       gallery: ["#", "#", "#"]
     },
@@ -117,7 +128,7 @@ const Events = () => {
       location: "Online",
       attendees: 85,
       description: "Strategic overview session on Cloud Computing concepts.",
-      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: foundv,
       type: "Workshop",
       gallery: ["#", "#", "#"]
     },
@@ -129,8 +140,8 @@ const Events = () => {
       location: "Online",
       attendees: 85,
       description: "Strategic overview session on Cloud Computing concepts.",
-      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
-      type: "Gaming Event",
+      image: bgmi,
+      type :"Gaming Event",
       gallery: ["#", "#", "#"]
     },
     {
@@ -141,7 +152,7 @@ const Events = () => {
       location: "Online",
       attendees: 85,
       description: "To guide students on growing their LinkedIn presence and building a strong personal brand.",
-      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: hypev,
       type: "Workshop",
       gallery: ["#", "#", "#"]
     },
@@ -153,7 +164,7 @@ const Events = () => {
       location: "Lecture Hall 1",
       attendees: 85,
       description: "Fun and competitive gaming event for BGMI enthusiasts. ₹2000 cash prize, customized swags, free vouchers",
-      image: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: head,
       type: "Gaming Event",
       gallery: ["#", "#", "#"]
     },
@@ -165,7 +176,7 @@ const Events = () => {
       location: "Computer Lab A",
       attendees: 120,
       // description: "Hands-on workshop covering fundamentals of AI and ML with practical projects using Python and TensorFlow.",
-      image: "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
+      image: cloud,
       type: "Workshop",
       gallery: []
     },
