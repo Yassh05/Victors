@@ -1,9 +1,26 @@
+/* Responsive gallery styles */
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.gallery-img {
+  width: 100%;
+  max-width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
 /* Events.css - Events section component styles */
 
 .events {
   background: var(--bg-secondary);
   position: relative;
 }
+
 
 .events::before {
   content: '';

@@ -23,7 +23,7 @@ const Footer = () => {
     // { icon: <Github size={20} />, name: "GitHub", url: "#" },
     { icon: <Linkedin size={20} />, name: "LinkedIn", url: "https://www.linkedin.com/company/the-victors-club/posts/?feedView=all" },
     // { icon: <Twitter size={20} />, name: "Twitter", url: "#" },
-    { icon: <Instagram size={20} />, name: "Instagram", url: "#" }
+    { icon: <Instagram size={20} />, name: "Instagram", url: "https://www.instagram.com/thevictorsclub.dce?igsh=Z2llMDZwZW1mZHc0" }
   ];
 
   const scrollToSection = (sectionId) => {

@@ -4,6 +4,7 @@ import '../styles/Events.css';
 
 const Events = () => {
   const [activeTab, setActiveTab] = useState('upcoming');
+  const [galleryEventId, setGalleryEventId] = useState(null); // Track which event's gallery is open
 
   const upcomingEvents = [
     {
@@ -55,7 +56,7 @@ const Events = () => {
       description: "A high-energy startup pitching competition to fuel creativity, empower entrepreneurs, and turn ideas into reality.",
       image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       type: "Community Event",
-      gallery: ["#", "#", "#"]
+      gallery: ["#","#","#"]
       
     },
     {
@@ -211,7 +212,6 @@ const Events = () => {
               <div className="event-content">
                 <h3 className="event-title">{event.title}</h3>
                 <p className="event-description">{event.description}</p>
-                
                 <div className="event-details">
                   <div className="event-detail">
                     <Calendar size={16} />
@@ -244,7 +244,29 @@ const Events = () => {
                   </div>
                 ) : (
                   <div className="event-actions">
-                    <button className="btn btn-secondary">View Gallery</button>
+                    <button className="btn btn-secondary" onClick={() => setGalleryEventId(event.id)}>
+                      View Gallery
+                    </button>
+                  </div>
+                )}
+
+                {/* Gallery Modal */}
+                {activeTab === 'past' && galleryEventId === event.id && event.gallery && event.gallery.length > 0 && (
+                  <div className="gallery-modal">
+                    <div className="gallery-modal-content">
+                      <h4>Event Gallery</h4>
+                      <button className="gallery-close" onClick={() => setGalleryEventId(null)}>&times;</button>
+                      <div className="gallery-images">
+                        {event.gallery.map((img, idx) => (
+                          img !== "#" ? (
+                            <img key={idx} src={img} alt={`Gallery ${idx + 1}`} className="gallery-img" />
+                          ) : null
+                        ))}
+                        {event.gallery.every(img => img === "#") && (
+                          <p>No gallery images available.</p>
+                        )}
+                      </div>
+                    </div>
                   </div>
                 )}
               </div>

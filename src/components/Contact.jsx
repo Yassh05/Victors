@@ -69,7 +69,7 @@ const Contact = () => {
     // { icon: <Github />, name: "GitHub", url: "#", color: "#333" },
     { icon: <Linkedin />, name: "LinkedIn", url: "https://www.linkedin.com/company/the-victors-club/posts/?feedView=all", color: "#0077B5" },
     // { icon: <Twitter />, name: "Twitter", url: "#", color: "#1DA1F2" },
-    { icon: <Instagram />, name: "Instagram", url: "#", color: "#E4405F" }
+    { icon: <Instagram />, name: "Instagram", url: "https://www.instagram.com/thevictorsclub.dce?igsh=Z2llMDZwZW1mZHc0", color: "#E4405F" }
   ];
 
   return (

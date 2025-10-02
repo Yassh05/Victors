@@ -1,8 +1,8 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import '../styles/Team.css';
-import yoyo1 from "../assets/react.svg"
-import yash from "../assets/yash.jpg"
+
+import yash from "../assets/yash1.jpg"
 import garima from "../assets/Garima1.jpg"
 import sanjit from "../assets/sanjit.jpg"
 import bhavya from "../assets/bhavya.jpg"
@@ -10,12 +10,12 @@ import priyanshu from "../assets/priyanshu.jpg"
 import riya from "../assets/riya.jpg"
 import mukund from "../assets/mukund.jpg"
 import garvit from "../assets/garvit.jpg"
-import nandini from "../assets/gaara.jpg"
+import nandini from "../assets/nandini.png"
 import keshav from "../assets/keshav.jpg"
 import aditya from "../assets/aditya.jpg"
 import pranay from "../assets/pranay.jpg"
 import mahak from "../assets/mahak.jpg"
-import vinay from "../assets/gaara.jpg"
+import vinay from "../assets/vinay.jpg"
 
 
 const Team = () =>{
