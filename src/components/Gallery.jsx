@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
 import '../styles/Gallery.css';
+import a from '../gallery/100.jpg';
+import b from '../gallery/101.jpg';
+import c from '../gallery/102.jpg';
+import d from '../gallery/103.jpg';
+import e from '../gallery/73.jpg';
+import f from '../gallery/105.jpg';
+import g from '../gallery/106.jpg';
+import h from '../gallery/107.jpg';
+import i from '../gallery/108.jpg';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -9,63 +18,63 @@ const Gallery = () => {
   const galleryImages = [
     {
       id: 1,
-      src: "https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: c,
       title: "Industry Panel Discussion",
       category: "Events",
       description: "Tech industry leaders sharing insights with our members"
     },
     {
       id: 2,
-      src: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
-      title: "VictorHack 2023",
+      src: a,
+      title: "VictorHack 2024",
       category: "Hackathon",
       description: "48-hour hackathon with innovative project presentations"
     },
     {
       id: 3,
-      src: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: b,
       title: "Team Building Workshop",
       category: "Workshop",
       description: "Members collaborating on technical challenges"
     },
     {
       id: 4,
-      src: "https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: d,
       title: "Web Development Bootcamp",
       category: "Training",
       description: "Intensive coding session during our web development bootcamp"
     },
     {
       id: 5,
-      src: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: f,
       title: "Award Ceremony",
       category: "Achievement",
       description: "Celebrating our Best Student Society award"
     },
     {
       id: 6,
-      src: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: g,
       title: "AI Workshop",
       category: "Workshop",
       description: "Hands-on machine learning project development"
     },
     {
       id: 7,
-      src: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: h,
       title: "Networking Session",
       category: "Networking",
       description: "Members connecting with alumni and industry professionals"
     },
     {
       id: 8,
-      src: "https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: i,
       title: "Cybersecurity Seminar",
       category: "Seminar",
       description: "Learning about digital security and ethical hacking"
     },
     {
       id: 9,
-      src: "https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop",
+      src: e,
       title: "Project Demo Day",
       category: "Showcase",
       description: "Students presenting their innovative projects"

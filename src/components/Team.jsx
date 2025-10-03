@@ -16,9 +16,24 @@ import aditya from "../assets/aditya.jpg"
 import pranay from "../assets/pranay.jpg"
 import mahak from "../assets/mahak.jpg"
 import vinay from "../assets/vinay.jpg"
+import mentorImg from "../assets/mentor.jpg" // Add your mentor's image here
 
 
 const Team = () =>{
+  // Mentor details
+  const mentor = {
+    name: "Prof. Pooja Khot", // Replace with actual name
+    role: "Faculty Mentor",
+    description: "Guiding and inspiring the team with expertise, wisdom, and encouragement.", // Add a custom description
+    image: mentorImg,
+    skills: ["Mentorship", "Leadership", "Research"],
+    social: {
+      // github: "#",
+      linkedin: "#",
+      email: "#"
+    }
+  };
+
   const teamMembers = [
     {
       name: "Pranay Jain",
@@ -199,6 +214,38 @@ const Team = () =>{
           <p className="section-subtitle">
             The passionate leaders driving innovation and fostering growth in our community
           </p>
+        </div>
+
+        {/* Mentor Card (centered above team) */}
+        <div className="mentor-card" style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+          <div className="team-card" style={{ maxWidth: 350 }}>
+            <div className="member-image">
+              <img src={mentor.image} alt={mentor.name} />
+              <div className="member-overlay">
+                <div className="social-links">
+                  <a href={mentor.social.github} aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+                    <Github size={20} />
+                  </a>
+                  <a href={mentor.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                    <Linkedin size={20} />
+                  </a>
+                  <a href={`mailto:${mentor.social.email}`} aria-label="Email">
+                    <Mail size={20} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="member-info">
+              <h3 className="member-name">{mentor.name}</h3>
+              <p className="member-role">{mentor.role}</p>
+              <p className="member-description">{mentor.description}</p>
+              <div className="member-skills">
+                {mentor.skills.map((skill, skillIndex) => (
+                  <span key={skillIndex} className="skill-tag">{skill}</span>
+                ))}
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Team Grid */}
