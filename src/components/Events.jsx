@@ -21,6 +21,7 @@ import fiveone from '../gallery/52.jpg';
 import nine from '../gallery/91.jpg';
 import welcome from '../gallery/tech2.png';
 import x from '../gallery/image.png'
+import bgmi2 from '../gallery/bgmi2.png'
 
 
 const GalleryLightbox = ({ images, title, description, onClose }) => {
@@ -208,7 +209,7 @@ const Events = () => {
       location: "Online",
       attendees: 85,
       description: "Fun and competitive gaming event for BGMI enthusiasts. ₹2000 cash prize, customized swags, free vouchers.",
-      image: head,
+      image: bgmi2,
       type :"Gaming Event",
       gallery: [bgmi,head]
     }
