@@ -112,10 +112,10 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Get in Touch</h4>
             <div className="footer-contact">
-              <div className="contact-item">
-                <MapPin size={16} />
+              {/* <div className="contact-item"> */}
+                {/* <MapPin size={16} />
                 <span>Room XX<br />University Campus</span>
-              </div>
+              </div> */}
               <div className="contact-item">
                 <Mail size={16} />
                 <span>info.victors.dce@gmail.com</span>

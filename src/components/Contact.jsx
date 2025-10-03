@@ -54,15 +54,15 @@ const Contact = () => {
     {
       icon: <Phone />,
       title: "Call Us",
-      details: "+91 xxxxxxxxxx",
+      details: "+91 995805070, +91 9717066014",
       description: "Available Monday to Friday, 9:00 AM - 6:00 PM"
-    },
-    {
-      icon: <MapPin />,
-      title: "Visit Us",
-      details: "Room 402 AIML 1",
-      description: "Drop by during our office hours or scheduled meetings."
     }
+    // {
+    //   icon: <MapPin />,
+    //   title: "Visit Us",
+    //   details: "Room 402 AIML 1",
+    //   description: "Drop by during our office hours or scheduled meetings."
+    // }
   ];
 
   const socialLinks = [
