@@ -26,12 +26,12 @@ const Team = () =>{
     role: "Faculty Mentor",
     description: "Guiding and inspiring the team with expertise, wisdom, and encouragement.", // Add a custom description
     image: mentorImg,
-    skills: ["Mentorship", "Leadership", "Research"],
-    social: {
-      // github: "#",
-      linkedin: "#",
-      email: "khotp4103@gmail.com"
-    }
+    skills: ["Mentorship", "Leadership", "Research"]
+    // social: {
+    //   // // github: "#",
+    //   linkedin: "#",
+    //   email: "khotp4103@gmail.com"
+    // }
   };
 
   const teamMembers = [
@@ -42,7 +42,7 @@ const Team = () =>{
       image: pranay,
       skills: [ "Leadership", "AWS", "EC2"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/pranay-jain-470783293/",
         email: "jpranay216@gmail.com"
       }
@@ -54,7 +54,7 @@ const Team = () =>{
       image: garima,
       skills: ["Python", "AI & ML", "Figma"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/16garimaverma",
         email: "garima16work5@gmail.com"
       }
@@ -66,7 +66,7 @@ const Team = () =>{
       image: yash,
       skills: ["React", "Python", "AI/ML"],
       social: {
-        github: "https://github.com/Yassh05",
+        // // github: "https://github.com/Yassh05",
         linkedin: "https://www.linkedin.com/in/yashsharma05/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BQ5SERD1oQvWhfY59aApmuQ%3D%3D",
         email: "yashsharmaa555@gmail.com"
       }
@@ -78,7 +78,7 @@ const Team = () =>{
       image: sanjit,
       skills: ["Event Planning", "DSA" ,"Web DEV"],
       social: {
-        github: "https://github.com/Sanjitrakshit",
+        // // github: "https://github.com/Sanjitrakshit",
         linkedin: "https://www.linkedin.com/in/sanjit-rakshit-093844367?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "sanjitrksht@gmail.com"
       }
@@ -90,7 +90,7 @@ const Team = () =>{
       image: keshav,
       skills: ["AWS", "Cloud", "DevOps"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/keshav-kumar-3649812b5/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "keshavdeploys@gmail.com"
       }
@@ -102,7 +102,7 @@ const Team = () =>{
       image: aditya,
        skills: ["AWS", "Graphic Design", "Cloud"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/aditya-singh-92b740289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "joshadityasingh@gmail.com"
       }
@@ -114,7 +114,7 @@ const Team = () =>{
       image: riya,
       skills: ["Communacation Skill", "Networking", "Community Building"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/riya-dobhal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "riyadobhal216@gmail.com"
       }
@@ -126,7 +126,7 @@ const Team = () =>{
       image: bhavya,
       skills: ["Networking", "Collaboration", "Community Building"],
       social: {
-        github: "https://github.com/Bhavya-sheoran/",
+        // // github: "https://github.com/Bhavya-sheoran/",
         linkedin: "https://www.linkedin.com/in/bhavya-sheoran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "bhavyasheoran2000@gmail.com"
       }
@@ -138,7 +138,7 @@ const Team = () =>{
       image: mahak,
       skills: ["UI", "Cyber", "Team Coordination"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/mahak-sharma-8b6841378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "Sharmamahak247@gmail.com"
       }
@@ -150,7 +150,7 @@ const Team = () =>{
       image: vinay,
       skills: ["Creative Thinking", "UI/UX", "Team Coordination"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         email: "vinayshekhawat2004@gmail.com"
       }
@@ -162,7 +162,7 @@ const Team = () =>{
       image: priyanshu,
       skills: ["Digital Marketing", "Content Creation", "Social Media"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/priyanshu-roy-596305289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "priyanshu.roy0525@gmail.com"
       }
@@ -174,7 +174,7 @@ const Team = () =>{
       image: mukund,
       skills: ["Social Media", "UI", "UX"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin: "https://www.linkedin.com/in/mukund-rai-179922326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "chanchala8743@gmail.com"
       }
@@ -187,7 +187,7 @@ const Team = () =>{
       image: garvit,
       skills: ["Planning", "Communication", "Team Coordination"],
       social: {
-        github: "#",
+        // github: "#",
         linkedin:"https://www.linkedin.com/in/garvit-anand-978a82209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         email: "garvit1310@gmail.com"
       }
@@ -199,7 +199,7 @@ const Team = () =>{
       image: nandini,
       skills: ["Project Management", "WEB DEV", "Team Coordination"],
       social: {
-        github: "https://github.com/nandini06483",
+        // // // github: "https://github.com/nandini06483",
         linkedin: "https://www.linkedin.com/in/nandini-23650b335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "nandini3306@gmail.com"
       }
@@ -223,17 +223,17 @@ const Team = () =>{
             <div className="member-image">
               <img src={mentor.image} alt={mentor.name} />
               <div className="member-overlay">
-                <div className="social-links">
-                  <a href={mentor.social.github} aria-label="GitHub" target="_blank" rel="noopener noreferrer">
-                    <Github size={20} />
-                  </a>
-                  <a href={mentor.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
-                    <Linkedin size={20} />
-                  </a>
-                  <a href={`mailto:${mentor.social.email}`} aria-label="Email">
-                    <Mail size={20} />
-                  </a>
-                </div>
+                {/* <div className="social-links">
+                  {/* <a href={mentor.social.github} aria-label="GitHub" target="_blank" rel="noopener noreferrer"> */}
+                  {/* <Github size={20} /> */}
+                  {/* </a> */}
+                  {/* <a href={mentor.social.linkedin} aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"> */}
+                    {/* <Linkedin size={20} /> */}
+                  {/* </a> */}
+                  {/* <a href={`mailto:${mentor.social.email}`} aria-label="Email"> */}
+                    {/* <Mail size={20} /> */}
+                  {/* </a> */}
+                {/* </div> */} 
               </div>
             </div>
             <div className="member-info">
@@ -257,9 +257,9 @@ const Team = () =>{
                 <img src={member.image} alt={member.name} />
                 <div className="member-overlay">
                   <div className="social-links">
-                    <a href={member.social.github} aria-label="GitHub"  target="_blank" rel="noopener noreferrer">
-                      <Github size={20} />
-                    </a>
+                    {/* <a href={member.social.github} aria-label="GitHub"  target="_blank" rel="noopener noreferrer"> */}
+                      {/* <Github size={20} /> */}
+                    {/* </a> */}
                     <a href={member.social.linkedin} aria-label="LinkedIn"  target="_blank" rel="noopener noreferrer">
                       <Linkedin size={20} />
                     </a>
