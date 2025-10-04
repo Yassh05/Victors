@@ -30,7 +30,7 @@ const Team = () =>{
     social: {
       // github: "#",
       linkedin: "#",
-      email: "#"
+      email: "khotp4103@gmail.com"
     }
   };
 
@@ -83,103 +83,7 @@ const Team = () =>{
         email: "sanjitrksht@gmail.com"
       }
     },
-    {
-      name: "Priyanshu",
-      role: "Social Squad Lead",
-      description: "Managing our digital presence and communications. Spreading the word about our amazing community and achievements.",
-      image: priyanshu,
-      skills: ["Digital Marketing", "Content Creation", "Social Media"],
-      social: {
-        github: "#",
-        linkedin: "https://www.linkedin.com/in/priyanshu-roy-596305289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "priyanshu.roy0525@gmail.com"
-      }
-    },
-    {
-      name: "Mukund",
-      role: "Social Squad Coordinator",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: mukund,
-      skills: ["Social Media", "UI", "UX"],
-      social: {
-        github: "#",
-        linkedin: "https://www.linkedin.com/in/mukund-rai-179922326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "chanchala8743@gmail.com"
-      }
-    },
-    {
-      name: "Riya",
-      role: "Connectors Hub Lead",
-      description: "Working to build strong partnerships with companies and startups by securing sponsorships and support for events, helping create opportunities that benefit and grow our college community.",
-      image: riya,
-      skills: ["Communacation Skill", "Networking", "Community Building"],
-      social: {
-        github: "#",
-        linkedin: "https://www.linkedin.com/in/riya-dobhal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "riyadobhal216@gmail.com"
-      }
-    },
-    {
-      name: "Bhavya",
-      role: "Connectors Hub Coordinator",
-      description: "Turning strangers into collaborators and ideas into impact.",
-      image: bhavya,
-      skills: ["Networking", "Collaboration", "Community Building"],
-      social: {
-        github: "https://github.com/Bhavya-sheoran/",
-        linkedin: "https://www.linkedin.com/in/bhavya-sheoran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "bhavyasheoran2000@gmail.com"
-      }
-    },
-    {
-      name: "Garvit Anand",
-      role: "Event Crew Lead",
-      description: "Event Management Lead. Bringing ideas to life by planning and organizing engaging events that run smoothly and create lasting memories.",
-      image: garvit,
-      skills: ["Planning", "Communication", "Team Coordination"],
-      social: {
-        github: "#",
-        linkedin:"https://www.linkedin.com/in/garvit-anand-978a82209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        email: "garvit1310@gmail.com"
-      }
-    },
-    {
-      name: "Nandini",
-      role: "Event Crew Coordinator",
-      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
-      image: nandini,
-      skills: ["Project Management", "WEB DEV", "Team Coordination"],
-      social: {
-        github: "https://github.com/nandini06483",
-        linkedin: "https://www.linkedin.com/in/nandini-23650b335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "nandini3306@gmail.com"
-      }
-    },
-    {
-      name: "Mahak",
-      role: "Creative Cell Coordinator",
-      description: "From engineering logic to creative UI/UX, I design functional and engaging digital experiences.",
-      image: mahak,
-      skills: ["UI", "Cyber", "Team Coordination"],
-      social: {
-        github: "#",
-        linkedin: "https://www.linkedin.com/in/mahak-sharma-8b6841378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        email: "Sharmamahak247@gmail.com"
-      }
-    },
-    {
-      name: "Vinay",
-      role: "Creative Cell Coordinator",
-      description: "Creative editor and UI/UX enthusiast, blending design with functionality.",
-      image: vinay,
-      skills: ["Creative Thinking", "UI/UX", "Team Coordination"],
-      social: {
-        github: "#",
-        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        email: "vinayshekhawat2004@gmail.com"
-      }
-    },
-    {
+     {
       name: "Keshav",
       role: "Cloud Lead",
       description: "Experienced in AWS services and cloud-native development, with a focus on optimizing infrastructure and enabling innovation for business growth.",
@@ -201,6 +105,103 @@ const Team = () =>{
         github: "#",
         linkedin: "https://www.linkedin.com/in/aditya-singh-92b740289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         email: "joshadityasingh@gmail.com"
+      }
+    },
+    {
+      name: "Riya",
+      role: "Connectors Hub Lead",
+      description: "Working to build strong partnerships with companies and startups by securing sponsorships and support for events, helping create opportunities that benefit and grow our college community.",
+      image: riya,
+      skills: ["Communacation Skill", "Networking", "Community Building"],
+      social: {
+        github: "#",
+        linkedin: "https://www.linkedin.com/in/riya-dobhal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "riyadobhal216@gmail.com"
+      }
+    },
+    {
+      name: "Bhavya",
+      role: "Connectors Hub Lead",
+      description: "Turning strangers into collaborators and ideas into impact.",
+      image: bhavya,
+      skills: ["Networking", "Collaboration", "Community Building"],
+      social: {
+        github: "https://github.com/Bhavya-sheoran/",
+        linkedin: "https://www.linkedin.com/in/bhavya-sheoran?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "bhavyasheoran2000@gmail.com"
+      }
+    },
+        {
+      name: "Mahak",
+      role: "Creative Cell Lead",
+      description: "From engineering logic to creative UI/UX, I design functional and engaging digital experiences.",
+      image: mahak,
+      skills: ["UI", "Cyber", "Team Coordination"],
+      social: {
+        github: "#",
+        linkedin: "https://www.linkedin.com/in/mahak-sharma-8b6841378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "Sharmamahak247@gmail.com"
+      }
+    },
+    {
+      name: "Vinay",
+      role: "Creative Cell Lead",
+      description: "Creative editor and UI/UX enthusiast, blending design with functionality.",
+      image: vinay,
+      skills: ["Creative Thinking", "UI/UX", "Team Coordination"],
+      social: {
+        github: "#",
+        linkedin: "https://www.linkedin.com/in/vinay-singh-shekhawat-14a609350?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "vinayshekhawat2004@gmail.com"
+      }
+    },
+    {
+      name: "Priyanshu",
+      role: "Social Squad Lead",
+      description: "Managing our digital presence and communications. Spreading the word about our amazing community and achievements.",
+      image: priyanshu,
+      skills: ["Digital Marketing", "Content Creation", "Social Media"],
+      social: {
+        github: "#",
+        linkedin: "https://www.linkedin.com/in/priyanshu-roy-596305289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "priyanshu.roy0525@gmail.com"
+      }
+    },
+    {
+      name: "Mukund",
+      role: "Social Squad Lead",
+      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      image: mukund,
+      skills: ["Social Media", "UI", "UX"],
+      social: {
+        github: "#",
+        linkedin: "https://www.linkedin.com/in/mukund-rai-179922326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "chanchala8743@gmail.com"
+      }
+    },
+    
+    {
+      name: "Garvit Anand",
+      role: "Event Crew Lead",
+      description: "Event Management Lead. Bringing ideas to life by planning and organizing engaging events that run smoothly and create lasting memories.",
+      image: garvit,
+      skills: ["Planning", "Communication", "Team Coordination"],
+      social: {
+        github: "#",
+        linkedin:"https://www.linkedin.com/in/garvit-anand-978a82209?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        email: "garvit1310@gmail.com"
+      }
+    },
+    {
+      name: "Nandini",
+      role: "Event Crew Lead",
+      description: "Overseeing collaborative projects and ensuring smooth execution. Connecting members with exciting opportunities.",
+      image: nandini,
+      skills: ["Project Management", "WEB DEV", "Team Coordination"],
+      social: {
+        github: "https://github.com/nandini06483",
+        linkedin: "https://www.linkedin.com/in/nandini-23650b335?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        email: "nandini3306@gmail.com"
       }
     }
   ];
