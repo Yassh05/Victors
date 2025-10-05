@@ -96,7 +96,7 @@ const Events = () => {
       attendees: 100,
       // description: "Hands-on workshop covering fundamentals of AI and ML with practical projects using Python and TensorFlow.",
       image: tech2,
-      type: "Workshop",
+      type: "Hackathon",
       registrationLink: "https://unstop.com/o/9j2EJqZ?lb=wE7mLjgs"
     },
   
