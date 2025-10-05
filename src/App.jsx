@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
 import './styles/App.css';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   // Theme state management
