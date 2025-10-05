@@ -112,7 +112,7 @@ const Team = () =>{
       role: "Connectors Hub Lead",
       description: "Working to build strong partnerships with companies and startups by securing sponsorships and support for events, helping create opportunities that benefit and grow our college community.",
       image: riya,
-      skills: ["Communacation Skill", "Networking", "Community Building"],
+      skills: ["Communication Skill", "Networking", "Community Building"],
       social: {
         // github: "#",
         linkedin: "https://www.linkedin.com/in/riya-dobhal?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
