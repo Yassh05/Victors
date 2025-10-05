@@ -22,6 +22,7 @@ import nine from '../gallery/91.jpg';
 import welcome from '../gallery/tech2.png';
 import x from '../gallery/image.png'
 import bgmi2 from '../gallery/bgmi2.png'
+import tech2 from '../gallery/2_0new.png'
 
 
 const GalleryLightbox = ({ images, title, description, onClose }) => {
@@ -89,14 +90,14 @@ const Events = () => {
     {
       id: 1,
       title: "TECHPRENEUR 2.0",
-      //time: "10:00 AM - 4:00 PM",
+      date: "2025-10-17",
       time: "10:00 AM - 03:00 PM",
       location: "Dronacharya College of Engineering",
       attendees: 100,
       // description: "Hands-on workshop covering fundamentals of AI and ML with practical projects using Python and TensorFlow.",
-      image: welcome,
+      image: tech2,
       type: "Workshop",
-      registrationLink: "#"
+      registrationLink: "https://unstop.com/o/9j2EJqZ?lb=wE7mLjgs"
     },
   
     // {
@@ -325,7 +326,7 @@ const Events = () => {
 
                 {activeTab === 'upcoming' ? (
                   <div className="event-actions">
-                    <a href={event.registrationLink} className="btn btn-primary">
+                    <a href={event.registrationLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
                       Register Now
                       <ExternalLink size={16} />
                     </a>

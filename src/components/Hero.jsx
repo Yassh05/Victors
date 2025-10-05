@@ -13,6 +13,17 @@ const Hero = () => {
 
   return (
     <section id="home" className="hero">
+      {/* Techpreneur 2.0 Live Event Banner
+      <div className="event-banner" style={{background: 'linear-gradient(90deg, #ff9800 0%, #ff5722 100%)', color: '#fff', padding: '1.2rem 0', textAlign: 'center', fontWeight: 'bold', fontSize: '1.2rem', letterSpacing: '1px', boxShadow: '0 2px 8px rgba(0,0,0,0.08)'}}>
+        🚀 Techpreneur 2.0 is <span style={{color: '#fff200'}}>LIVE!</span> &nbsp; 
+        <button 
+          className="btn btn-primary" 
+          style={{marginLeft: '1rem', fontWeight: 'bold', fontSize: '1rem', padding: '0.5rem 1.2rem', borderRadius: '6px', background: '#fff200', color: '#333', border: 'none', cursor: 'pointer'}} 
+          onClick={() => window.open('https://your-registration-link.com', '_blank')}
+        >
+          Register Now
+        </button>
+      </div> */}
       <div className="hero-container">
         {/* Hero Content */}
         <div className="hero-content">
