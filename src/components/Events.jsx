@@ -135,7 +135,7 @@ const Events = () => {
       attendees: 35,
       description: "A high-energy startup pitching competition to fuel creativity, empower entrepreneurs, and turn ideas into reality.",
       image: x,
-      type: "Community Event",
+      type: "Hackathon",
       gallery: [techv]
       
     },
