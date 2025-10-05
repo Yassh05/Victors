@@ -111,11 +111,11 @@ const Hero = () => {
   {/* </div>
 </div> */}
 
-      {/* Scroll Indicator */}
+      {/* Scroll Indicator 
       <div className="scroll-indicator">
         <div className="scroll-line"></div>
         <span>Scroll to explore</span>
-      </div>
+      </div>*/}
       </div>
        </section>
         );
