@@ -146,7 +146,7 @@ const Events = () => {
       time: "01:50 PM Onwards",
       location: "Seminar Hall",
       attendees: 60,
-      description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
+      description: "Resume structuring tips, Guidance from industry expert, Skills to stand out in job market",
       image: workshop,
       type: "Workshop",
       gallery: [workshop, five, fiveone]
@@ -159,7 +159,7 @@ const Events = () => {
       time: "12:00 PM Onwards",
       location: "Online",
       attendees: 60,
-      description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
+      description: "Introduction to iOS development.",
       image: six,
       type: "Bootcamp",
       gallery: [six, cloud, sixone]
@@ -172,7 +172,7 @@ const Events = () => {
       time: "Full Day",
       location: "Computer Lab B",
       attendees: 60,
-      description: "Comprehensive bootcamp covering modern web development with React, Node.js, and MongoDB.",
+      description: "Encourage students to design and develop innovative websites showcasing creativity, coding skills, and practical problem-solving.",
       image: webitup,
       type: "Bootcamp",
       gallery: [seven, sevenone, seventwo]
